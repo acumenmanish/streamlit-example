@@ -3,10 +3,6 @@ import numpy as np
 import streamlit as st 
 
 
-[theme]
-base="dark"
-primaryColor="purple"
-
 st.title('Welcome to Cohort 11 Image Restoration Project!')
 
 
