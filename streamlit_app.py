@@ -2,8 +2,13 @@ from PIL import Image
 import numpy as np 
 import streamlit as st 
 
+
+[theme]
+base="dark"
+primaryColor="purple"
+
 st.title('Welcome to Cohort 11 Image Restoration Project!')
-st.header('Upload your Image below for Restoration:')
+
 
 # Function to Read and Manupilate Images
 def load_image(img):
