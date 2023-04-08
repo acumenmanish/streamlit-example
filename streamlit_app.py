@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st 
 
 st.title('Welcome to Cohort 11 Image Restoration Project!')
-st.title('Upload your Image below for Restoration:')
+st.header('Upload your Image below for Restoration:')
 
 # Function to Read and Manupilate Images
 def load_image(img):
